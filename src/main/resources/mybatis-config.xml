@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC
+		"-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+
+	<!-- 자바 객체만 해당 VO,DTO -->
+	<settings>
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+	</settings>
+
+	<typeAliases>
+		<typeAlias type="java.util.Map" alias="map"/>
+		<typeAlias type="com.ssooya.common.util.LowerHashMap" alias="lowerMap"/>
+<!--				<typeAlias type="com.dassa.vo.UserVO" alias="userVO"/>-->
+<!--				<typeAlias type="com.dassa.vo.MoveApplyVO" alias="moveApplyVO"/>	 &lt;!&ndash;이사신청 VO  &ndash;&gt;-->
+	</typeAliases>
+
+</configuration>

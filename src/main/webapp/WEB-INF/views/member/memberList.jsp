@@ -7,6 +7,7 @@
 <body>
 <jsp:include page="/WEB-INF/views/common/header.jsp"/>
 
-<h1>회원가입 페이지</h1>
+
+<h1>회원가입 페이지@ </h1>
 </body>
 </html>
