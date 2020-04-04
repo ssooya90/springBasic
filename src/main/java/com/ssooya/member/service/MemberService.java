@@ -16,6 +16,7 @@ public class MemberService {
 	private MemberMapper memberMapper;
 
 	public List allList() throws Exception {
+
 		return memberMapper.getMemberList();
 	}
 
